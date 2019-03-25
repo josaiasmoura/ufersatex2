@@ -1,0 +1,163 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                    %%
+%%                         ufersaTeX2                                 %%
+%%                                                                    %%
+%%              ATENÇÃO! Este modelo não é oficial!. 									%%
+%%                                                                    %%
+%% Este modelo não é um modelo oficial, trata-se de customizações do  %%
+%% ueceTeX2 e abntTeX2 para adequar-se as normas da Universidade      %%
+%% Federal Rural do Semi-árido (UFERSA). Feita de forma independente  %%
+%% pelo aluno Josaias Moura (contato@josaiasmoura.com), aluno         %%
+%% graduando em Engenharia de Software pela UFERSA, para auxiliar     %%
+%% alunos da instituição em suas monografias. Ficando ele isento de   %%
+%% quaisquer eventual responsabilidade por utilização deste modelo    %%
+%% por terceiros.   																								  %%
+%%                                                                    %%
+%%              ATENÇÃO! Este modelo não é oficial!. 									%%
+%%                                                                    %%
+%% This work may be distributed and/or modified under the             %%
+%% conditions of the LaTeX Project Public License, either version 1.3 %%
+%% of this license or (at your option) any later version.             %%
+%% The latest version of this license is in                           %%
+%%   http://www.latex-project.org/lppl.txt                            %%
+%% and version 1.3 or later is part of all distributions of LaTeX     %%
+%% version 2005/12/01 or later.                                       %%
+%%                                                                    %%
+%% Agradecimentos aos responsáveis pelo ueceTeX2 e abntTeX2						%%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{lib/preambulo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%          Configuracoes do ufersaTeX2            %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\graduacaoem{Tecnologia da Informação} % Curso
+\habilitacao{bacharel} % Pode colocar também 'licenciada'
+
+% Recomendadas
+\trabalhoacademico{tccgraduacao}
+\ehqualificacao{nao}
+\removerbordasdohyperlink{sim}
+%\cordohyperlink{nao}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%          Informação sobre a IES                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ies{Universidade Federal Rural Do Semi-Árido}
+\iessigla{UFERSA}
+\campus{Pau dos Ferros}
+\centro{Departamento de Engenharias e Tecnologia}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Informação relacionadas ao trabalho     %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\autor{Nome Completo do(a) Autor(a)}
+\titulo{TÍTULO: SUBTÍTULO}
+\data{2018}
+\local{Pau dos Ferros -- RN}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%     Informação sobre o Orientador       %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\orientador{Prof. Dr. João de Tal}
+\orientadories{UFERSA}
+\orientadorcentro{Departamento De Engenharias e Tecnologia - Pau dos Ferros}
+\orientadorfeminino{nao} % Coloque 'sim' se for do sexo feminino
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%      Informação sobre o Co-orientador   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Deixe o nome do coorientador (caso não tenha um)
+
+\coorientador{}
+\coorientadories{UFERSA}
+\coorientadorcentro{Departamento De Engenharias e Tecnologia - Pau dos Ferros}
+\coorientadorfeminino{nao} % Coloque 'sim' se for do sexo feminino
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%      Informação sobre a banca           %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Atenção! O membro um é o presidente da banca, por padrão já vem definido como sendo seu orientador e recomendamos não alterar. No entanto, para definir o presidente da banca manualmente, descomente as linhas imediatamente abaixo.
+%\membrodabancaum{Prof. Dr. Pedro de tal}
+%\membrodabancaumies{UFERSA}
+%\membrodabancaumcentro{Departamento De Engenharias e Tecnologia - Pau dos Ferros}
+
+\membrodabancadois{Prof. Dr. Francisco de Tal}
+\membrodabancadoisies{UFERSA}
+\membrodabancadoiscentro{Departamento De Engenharias e Tecnologia - Pau dos Ferros}
+
+\membrodabancatres{Prof. Dr. Beltrano de Tal}
+\membrodabancatresies{UFERSA}
+\membrodabancatrescentro{Departamento De Engenharias e Tecnologia - Pau dos Ferros}
+
+%\membrodabancaquatro{Membro da Banca Quatro}
+%\membrodabancaquatroies{Universidade do Membro da Banca Quatro - SIGLA}
+%\membrodabancaquatrocentro{Centro de Ciências e Tecnologia - CCT}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+	% Se o seu trabalho é em ingles, descomente a linha a seguir
+	%\selectlanguage{english}
+
+	% --- Elementos pré-textuais
+	% Dica! Você pode comentar os elementos que não deseja utilizar.
+
+	% Elementos pré-textuais
+	\imprimircapa
+	\imprimirfolhaderosto{}
+	\imprimirfichacatalografica{elementos-pre-textuais/ficha-catalografica}
+	\imprimirerrata{elementos-pre-textuais/errata}
+	%\imprimirfolhadeaprovacaopdf{elementos-pre-textuais/folha-aprovacao} % adicionar PDF da folha de aprovação assinada e escaneada
+	\imprimirfolhadeaprovacao % comente essa linha quando adicionar o pdf da folha de aprovação
+	\imprimirdedicatoria{elementos-pre-textuais/dedicatoria}
+	\imprimiragradecimentos{elementos-pre-textuais/agradecimentos}
+	\imprimirepigrafe{elementos-pre-textuais/epigrafe}
+	\imprimirresumo{elementos-pre-textuais/resumo}
+	\imprimirabstract{elementos-pre-textuais/abstract}
+	\imprimirlistadeilustracoes
+	\imprimirlistadetabelas
+	\imprimirlistadequadros
+	\imprimirlistadeabreviaturasesiglas
+	\imprimirlistadesimbolos{elementos-pre-textuais/lista-de-simbolos}
+	\imprimirsumario
+
+	% --- Elementos textuais
+	% Dica! Você pode comentar os elementos que não deseja utilizar.
+	% Dica! Você pode adicionar mais elementos apenas adicionando uma nova linha
+	%   \input{elementos-textuais/nome-do-meu-novo-elemento}
+
+	\textual
+	\input{elementos-textuais/introducao}
+	\input{elementos-textuais/fundamentacao-teorica}
+	\input{elementos-textuais/trabalhos-relacionados}
+	\input{elementos-textuais/metodologia}
+	\input{elementos-textuais/resultados}
+	\input{elementos-textuais/conclusao}
+
+	% --- Elementos pós-textuais
+	% Dica! Você pode comentar os elementos que não deseja utilizar.
+
+	%Elementos pós-textuais
+	\bibliography{elementos-pos-textuais/referencias}
+	\imprimirglossario
+	\imprimirapendices
+		% Adicione aqui os apendices do seu trabalho
+		\input{elementos-pos-textuais/apendices/historico-de-mudancas}
+		\input{elementos-pos-textuais/apendices/lorem-ipsum}
+	\imprimiranexos
+		% Adicione aqui os anexos do seu trabalho
+		\input{elementos-pos-textuais/anexos/exemplo-de-anexo}
+		\input{elementos-pos-textuais/anexos/exemplo-de-anexo2}
+	\imprimirindice
+
+\end{document}
