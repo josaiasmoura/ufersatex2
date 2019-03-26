@@ -76,21 +76,21 @@ Veja a seguir como inserir alguns elementos no seu texto.
 ### Como inserir um Quadro
 ```tex
 \begin{quadro}[h!]
-	\centering
-	\Caption{\label{qua:label_do_quadro} Legenda do Quadro}
-	\UFERSAqua{}{
-		\begin{tabular}{|c|c|}
-			\hline
-			Nome & Idade \\
-			\hline
-			Maria & 25  \\
-			\hline
-			João & 30 \\
-			\hline
-		\end{tabular}
-	}{
-		\Fonte{Elaborado pelo autor}
-	}
+    \centering
+    \Caption{\label{qua:label_do_quadro} Legenda do Quadro}
+    \UFERSAqua{}{
+        \begin{tabular}{|c|c|}
+            \hline
+            Nome & Idade \\
+            \hline
+            Maria & 25  \\
+            \hline
+            João & 30 \\
+            \hline
+        \end{tabular}
+    }{
+        \Fonte{Elaborado pelo autor}
+    }
 \end{quadro}
 ```
 
@@ -110,14 +110,14 @@ Veja a seguir como inserir alguns elementos no seu texto.
 ### Como inserir uma alínea
 ```tex
 \begin{alineas}
-	\item Lorem ipsum dolor sit amet;
+    \item Lorem ipsum dolor sit amet;
     \item Praesent vitae nulla varius;
-	\item Praesent quis erat eleifend;
-	\item Mauris facilisis odio eu:
-	\begin{subalineas}
-		\item Integer non lacinia magna;
-		\item Proin mattis placerat risus.
-	\end{subalineas}
+    \item Praesent quis erat eleifend;
+    \item Mauris facilisis odio eu:
+    \begin{subalineas}
+        \item Integer non lacinia magna;
+        \item Proin mattis placerat risus.
+    \end{subalineas}
 \end{alineas}
 ```
 
@@ -165,7 +165,7 @@ Veja a seguir como inserir alguns elementos no seu texto.
 
 Encontrou algum erro? 😅 [Nos avise por aqui]
 
-Gostaria de contribuir? Nos envie um [PR], porque não? 😆
+Gostaria de contribuir? Nos envie um [PR], por que não? 😆
 
 # Atenção
 
@@ -175,7 +175,7 @@ O ufersaTeX2 é fornecido gratuitamente e sem garantias e pode ser redistribuíd
 
 # Agradecimentos
 
-Aos responsáveis pelo [ueceTeX2] e [abnTeX2] pelo magnifico trabalho.
+Aos responsáveis pelo [ueceTeX2] e [abnTeX2] pelo magnífico trabalho.
 
 [Por Onde Comecar]:https://code.google.com/p/abntex2/wiki/PorOndeComecar
 [abnTeX2]:https://github.com/abntex/abntex2
