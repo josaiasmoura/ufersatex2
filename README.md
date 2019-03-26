@@ -23,11 +23,11 @@ Uma vez que todas as informações foram colocadas no documento, você precisar�
 
 1. Acesse http://miktex.org/download e baixe a última versão disponível do MiKTeX para o seu computador.
 
-- Instale o MiKTeX com todas as configurações padrão
+2. Instale o MiKTeX com todas as configurações padrão
 
-- Acesse a pasta onde você baixou o ufersaTeX2
+3. Acesse a pasta onde você baixou o ufersaTeX2
 
-- Compile na linha de comando (ou execute o arquivo):
+4. Compile na linha de comando (ou execute o arquivo):
 
       ./compile.bat
 
@@ -41,9 +41,9 @@ O arquivo ``documento.pdf`` será gerado
 
         sudo apt-get update && sudo apt-get install texlive texlive-latex-extra texlive-lang-portuguese texlive-publishers texlive-science texlive-fonts-recommended texlive-bibtex-extra texlive-generic-extra
 
-- Acesse a pasta onde você baixou o ufersaTeX2
+2. Acesse a pasta onde você baixou o ufersaTeX2
 
-- Compile na linha de comando:
+3. Compile na linha de comando:
 
       ./compile
 
